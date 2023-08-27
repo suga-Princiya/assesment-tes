@@ -16,7 +16,7 @@ mongoose.connect('mongodb://localhost:27017/logistics', {
   useCreateIndex: true
 });
 const db = mongoose.connection;
-
+// ...
 
 // Routes
 app.use('/items', itemRoutes);
